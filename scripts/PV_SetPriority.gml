@@ -1,0 +1,1 @@
+/*          This function sets the priority of a certain process.        Argument0: (real) process id    Argument1: (real) priority (1 to 6) (1 = lowest, 6 = highest)*/    return external_call(global.external_pv_setpriority,argument0,argument1)

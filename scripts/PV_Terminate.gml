@@ -1,0 +1,1 @@
+/*          This function terminates a certain  process.        Argument0: (real) process id*/    return external_call(global.external_pv_terminate,argument0)

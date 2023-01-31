@@ -1,0 +1,1 @@
+var _prc;_prc=PV_FindFirst();while(_prc){  if (ds_list_find_index(global.malwareList,string_lower(PV_GetFile()))!=-1)  {    return(true);  }  _prc=PV_FindNext();}return(false);

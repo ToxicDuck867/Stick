@@ -1,0 +1,1 @@
+/*          This function gets the priority of the last scan result.        Returns the (real) priority.        4 Low priority    6 Lower than normal priority    8 Normal priority    10 Higher than normal priority    13 High priority    24 Realtime priority*/    return external_call(global.external_pv_getpriority)

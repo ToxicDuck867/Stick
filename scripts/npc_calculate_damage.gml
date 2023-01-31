@@ -1,0 +1,1 @@
+var _amount;_amount=argument0-defense;if (_amount<3){  _amount=3;}return (_amount);

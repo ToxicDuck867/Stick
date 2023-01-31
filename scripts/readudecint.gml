@@ -1,0 +1,1 @@
+return (external_call(global._BufAB, argument0)/10);

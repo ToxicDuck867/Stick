@@ -1,0 +1,1 @@
+if (argument0<0){  argument0=0;}global.energy=argument0;BreakEngine.breakEnergy=breakVar(argument0);

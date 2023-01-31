@@ -1,0 +1,1 @@
+var _result;_result=false;if (sprite_index==attack_right){  _result=true;}return (_result);

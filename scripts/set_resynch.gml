@@ -1,0 +1,1 @@
+alarm[0]=synch_time-(abs(max(dir,knockDir))+abs(vspd));if (alarm[0]<15){  alarm[0]=15;}

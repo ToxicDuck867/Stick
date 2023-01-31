@@ -1,0 +1,1 @@
+var dis, xx, tar, fric;xx=argument0;tar=argument1;fric=argument2;dis=point_distance(xx,xx,tar,tar)/2;if xx<tar { spd1+=dis/fric; }if xx>tar { spd1-=dis/fric; }spd1=spd1/1.05;xx+=spd1;return xx;

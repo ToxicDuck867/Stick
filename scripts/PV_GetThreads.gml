@@ -1,0 +1,1 @@
+/*          This function gets the number of threads of the last scan result.        Returns the (real) number of threads.*/    return external_call(global.external_pv_getthreads)

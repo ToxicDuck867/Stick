@@ -1,0 +1,1 @@
+clearbuffer();writebyte(3);writeushort(gameid);

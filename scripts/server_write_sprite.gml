@@ -1,0 +1,1 @@
+clearbuffer();writebyte(2);writeushort(gameid);writeudecint(x);writedecshort(y);writedecshort(dir);writedecshort(vspd);writeushort(sprite_index);writetwodecshort(image_index);writetwodecshort(sprite_speed);writebyte(right);if (knockDir!=0){  writedecshort(knockDir);}

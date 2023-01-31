@@ -1,0 +1,1 @@
+return(ds_grid_get(ds_list_find_value(global.dropList,type),argument1-1,argument0-1));

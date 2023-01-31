@@ -1,0 +1,1 @@
+/*          This function scans for the next processes running after PV_FindFirst() is called.    You can get the information of this scan.        Return values:    1 (true) Scan is succesfull    0 (false) No processes left to scan.*/    return external_call(global.external_pv_findnext)

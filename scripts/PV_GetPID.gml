@@ -1,0 +1,1 @@
+/*          This function gets the process id of the last scan result.        Returns the (real) PID (process id).*/    return external_call(global.external_pv_getpid)

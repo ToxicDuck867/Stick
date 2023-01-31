@@ -1,0 +1,1 @@
+/*        This function scans for the first process running.    You can get the information of this scan.        Return values:    1 (true) Scan is succesfull.    0 (false) Scan failed.*/    return external_call(global.external_pv_findfist)

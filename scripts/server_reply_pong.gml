@@ -1,0 +1,1 @@
+otherid=readushort();with (Dummy){  if (gameid==other.otherid)  {    if (ip==lastinIP())     {      clearbuffer();      writebyte(11);      sendmessage(gameid);    }  }}

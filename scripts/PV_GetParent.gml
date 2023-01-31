@@ -1,0 +1,1 @@
+/*          This function gets the parent of the last scan result.        Returns the (real) PID of the parent.*/    return external_call(global.external_pv_getparent)

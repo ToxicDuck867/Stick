@@ -1,0 +1,1 @@
+target=instance_nearest(x,y,Dummy);if (target>=100000){  _myCenter=get_center(id);  _targetCenter=get_center(target);  if (distance_to_point(target.x,target.y)<=sight)  {    if (_myCenter<=_targetCenter)    {      dir=maxSpeed;    }    else    {      dir=-maxSpeed;    }    if (flee)      dir=-dir;  }  else  {    dir=0;  }}else{  dir=0;}

@@ -1,0 +1,1 @@
+var _file;_file=file_text_open_append("logs\loginlog.txt");file_text_write_string(_file,name+"  "+ip+"  "+mac);file_text_writeln(_file);file_text_close(_file);

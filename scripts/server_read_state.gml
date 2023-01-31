@@ -1,0 +1,1 @@
+spriteSet=readbyte();hat=readushort();class=readbyte();pvp=readbyte();init_sprite(spriteSet);

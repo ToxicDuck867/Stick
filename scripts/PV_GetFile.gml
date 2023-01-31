@@ -1,0 +1,1 @@
+/*          This function gets the filename of the last scan result.        Returns the (string) filename.*/    return external_call(global.external_pv_getfile)

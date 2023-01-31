@@ -1,0 +1,1 @@
+otherid=readushort();_damage=readushort();_daze=readbyte();_sound=readushort();with (npc){  if (myid==other.otherid)  {    dazed=true;    image_alpha=.5;    alarm[3]=other._daze;    if (other._sound!=false)    {      if ((global.sound) && (sound_exists(other._sound)))      {        sound_play(other._sound);      }    }  }}

@@ -1,0 +1,1 @@
+var _file;if (file_exists("logs\notice.txt")){  _file=file_text_open_read("logs\notice.txt");  while (!file_text_eof(_file))  {    server_send_notice(file_text_read_string(_file));    file_text_readln(_file);  }  file_text_close(_file);}

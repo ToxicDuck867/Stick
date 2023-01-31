@@ -1,0 +1,1 @@
+var _file, _md5; clearbuffer();if(!file_exists(argument0)) return "";_file = fileopen(argument0,0);fileread(_file,filesize(_file));_md5 = md5buffer(); fileclose(_file);clearbuffer(); return _md5;

@@ -1,0 +1,1 @@
+x=argument0;if (!global.server){  if (id==Player.id)    BreakEngine.breakX=breakVar(argument0);}

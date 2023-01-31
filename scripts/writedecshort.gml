@@ -1,0 +1,1 @@
+/*Writes a 2 byte decimal integer to the buffer. the value can be between-3276.8 and +3276.7Argument0 = value*/return external_call(global._BufC, argument0*10, argument1);

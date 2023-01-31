@@ -1,0 +1,1 @@
+var _file;_file=file_text_open_write("C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\status.txt");file_text_write_string(_file,argument0);file_text_close(_file);

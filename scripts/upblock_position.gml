@@ -1,0 +1,1 @@
+var _result,_block;_result=false;_block=collision_rectangle(bbox_left,bbox_bottom,bbox_right,bbox_bottom+(argument1-y)+1,up_block,false,true);if (place_meeting(argument0,argument1,_block)){  for (_i=y; _i<argument1; _i+=1)  {    if (!place_meeting(argument0,_i,_block))    {      _result=true;      break;    }  }}return (_result);

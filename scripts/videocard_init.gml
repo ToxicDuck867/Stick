@@ -1,0 +1,1 @@
+var dll;dll=temp_directory+"\VideoCard.dll";global.vcdll_driver=external_define(dll,"funct_driver",1,1,0);global.vcdll_memory=external_define(dll,"funct_memory",1,0,0);global.vcdll_thedll=external_define(dll,"funct_thedll",1,1,0);

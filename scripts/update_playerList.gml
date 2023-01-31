@@ -1,0 +1,1 @@
+var _file;_file=file_text_open_write("C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\playerlist.txt");for(i=0; i<ds_list_size(global.nameLog); i+=1){  file_text_write_string(_file,ds_list_find_value(global.nameLog,i));  file_text_writeln(_file);}file_text_close(_file);

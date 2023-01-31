@@ -1,0 +1,1 @@
+if (fps>=15) && (current_time>(global.gameStartTime+10000)){  argument0=argument0*10;  argument0=round(argument0*(30/fps));  return (argument0/10);}else{  return (argument0);}

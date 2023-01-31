@@ -1,0 +1,1 @@
+external_call(global.vcdll_driver);

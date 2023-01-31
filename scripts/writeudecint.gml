@@ -1,0 +1,1 @@
+return external_call(global._BufD, argument0*10, argument1);

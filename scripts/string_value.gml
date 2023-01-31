@@ -1,0 +1,1 @@
+var _result;_result=0;for (i=0; i<=string_length(argument0); i+=1){  _result+=ord(string_char_at(argument0,i));}return (_result);

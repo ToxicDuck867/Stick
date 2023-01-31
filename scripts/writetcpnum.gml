@@ -1,0 +1,1 @@
+writebyte(global.tcpMsgs);global.tcpMsgs+=1;if (global.tcpMsgs>255)  global.tcpMsgs=0;

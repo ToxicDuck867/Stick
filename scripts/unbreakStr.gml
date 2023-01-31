@@ -1,0 +1,1 @@
+var _str;_str="";for (i=1; i<=string_length(argument0); i+=1){  _str+=chr(ord(string_char_at(argument0,i))-1);}return(_str);

@@ -1,0 +1,1 @@
+return(sprite_index==sit_right)

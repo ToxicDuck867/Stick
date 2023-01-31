@@ -1,0 +1,1 @@
+var _sum;_sum=0;for (i=1; i<=ds_list_size(argument0); i+=1){  _sum+=ds_list_find_value(argument0,i-1);}return(_sum);

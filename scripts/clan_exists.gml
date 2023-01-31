@@ -1,0 +1,1 @@
+if (argument1){  return(ds_list_find_index(global.clanNames,argument0)!=-1);}else{  var i;  for (i=0; i<clan_count(); i+=1)  {    if (string_lower(ds_list_find_value(global.clanNames,i))==string_lower(argument0))    {      return(true);    }  }}return(false);

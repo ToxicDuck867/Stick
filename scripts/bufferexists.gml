@@ -1,0 +1,1 @@
+/*Returns true if the buffer existsArgument0: Buffer id to check if it exists.*/return external_call(global._BufAF, argument0);

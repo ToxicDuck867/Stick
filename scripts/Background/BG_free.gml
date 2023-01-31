@@ -1,0 +1,1 @@
+for (i4=0; i4<=global.bgLoaded; i4+=1){  if ((global.bgRegion[i4]<(argument0-1)) || (global.bgRegion[i4]>(argument0+1)))  {    global.bgRegion[i4]=-1;  }}

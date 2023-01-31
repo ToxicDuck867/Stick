@@ -1,0 +1,1 @@
+return((clan_is_member(argument0,argument1)) || (clan_is_leader(argument0,argument1)));

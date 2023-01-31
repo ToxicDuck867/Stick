@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="BG_step" type="RESOURCE"/>
+  <resource name="BG_loadSegment" type="RESOURCE"/>
+  <resource name="BG_free" type="RESOURCE"/>
+  <resource name="BG_segmentLoaded" type="RESOURCE"/>
+  <resource name="BG_fileRemove" type="RESOURCE"/>
+  <resource name="BG_extract" type="RESOURCE"/>
+</resources>

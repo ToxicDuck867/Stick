@@ -1,0 +1,1 @@
+argument0=string_lower(argument0);var _listPos;_listPos=ds_list_find_index(global.clanMemberIndex,argument0);if (_listPos!=-1){  return(ds_list_find_value(global.clanNameIndex,_listPos));}return("");

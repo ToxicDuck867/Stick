@@ -1,0 +1,1 @@
+/*Returns the number of members in a clan (including the leader), or -1 if clandosn't exist*/if (clan_exists(argument0,true)){  var _listPos, _curMemberList;  _listPos=ds_list_find_index(global.clanNames,argument0);  _curMemberList=ds_list_find_value(global.clanMemberLists,_listPos);  return(ds_list_size(_curMemberList)+1);}return(-1);

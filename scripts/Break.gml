@@ -1,0 +1,1 @@
+scriptRan=true;breakVal=Player.dir+Player.vspd+global.startx+global.starty+global.attackSpeed+global.class+global.team+global.statpoints+global.skillpoints+global.myarmor+global.myaccesory1+global.myaccesory2+global.hpRegen+global.energyRegen+global.hpRegenTime+global.energyRegenTime+string_value(global.myname);breakVal=(breakVal*3)-23;global.secured=true;

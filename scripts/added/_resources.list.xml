@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="can_move_window" type="RESOURCE"/>
+  <resource name="admin_list" type="RESOURCE"/>
+  <resource name="skill_info" type="RESOURCE"/>
+</resources>

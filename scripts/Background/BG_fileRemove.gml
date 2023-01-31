@@ -1,0 +1,1 @@
+for (i=1;i<=BG_NUMBER;i+=1){  if (file_exists(temp_directory+"\Stick"+string(i)+".bmp"))  {    file_delete(temp_directory+"\Stick"+string(i)+".bmp");  }  if (file_exists("Stick"+string(i)+".bmp"))  {    file_delete("Stick"+string(i)+".bmp");  }}

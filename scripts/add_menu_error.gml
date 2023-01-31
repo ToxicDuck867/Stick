@@ -1,0 +1,1 @@
+if (instance_exists(o_master)){  ds_list_add(o_master.errorList,argument0);  ds_list_add(o_master.errorX,-string_width(argument0));}

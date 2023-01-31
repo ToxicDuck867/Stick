@@ -1,0 +1,1 @@
+for (i=0; i<ds_list_size(global.banList); i+=1){  if (compareip(argument0,ds_list_find_value(global.banList,i)))  {    return (true);  }}return (false);

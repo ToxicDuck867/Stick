@@ -1,0 +1,1 @@
+/*checks to see if the position of the object that called the functionsposition is within argument1 range (x and y) of argument0*/return(distance_to_point(argument0.x,argument0.y)<=argument1);

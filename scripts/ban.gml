@@ -1,0 +1,1 @@
+if (argument0!=""){  var _banList;  _banList=file_text_open_append("logs\banlist.txt");  file_text_write_string(_banList,argument0);  file_text_writeln(_banList);  file_text_close(_banList);  ds_list_add(global.banList,argument0);  }

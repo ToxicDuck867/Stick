@@ -1,0 +1,1 @@
+/*leave out checks for sprites that are set in set_sprite()based on dir*/var _result,_dirSprite;_result=right; if ((knockDir==0) && (!attacking())){  if (dir>0)  {    _result=true;  }  else if (dir<0)  {    _result=false;  }}return (_result);

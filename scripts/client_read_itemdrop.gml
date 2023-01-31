@@ -1,0 +1,1 @@
+exit;var _xx,_yy,_itemID,_myid,_check,_loot;_xx=readudecint();_yy=readdecshort();_myid=readushort();_itemID=readushort();_check=readint();if (varcheck(_itemID)!=_check){  BreakEngine.secure=false;  BreakEngine.breakSecure=breakVar(BreakEngine.secure);  BreakEngine.error=44;  exit;}_loot=instance_create(_xx,_yy,lootGlobal);_loot.itemID=_itemID;_loot.myid=_myid;

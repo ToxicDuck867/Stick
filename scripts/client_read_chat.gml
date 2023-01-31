@@ -1,0 +1,1 @@
+      var message, channel;message=readstring();channel=readbyte();switch (channel){  case 0:  {    chat_addline(message,global.chatColor,channel);  } break;  case 1:  {    chat_addline(message,c_teal,channel);  } break;  case 2:  {    chat_addline(message,c_blue,channel);  } break;}

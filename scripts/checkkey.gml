@@ -1,0 +1,1 @@
+return (createkey(argument0,argument2) == argument1);

@@ -1,0 +1,1 @@
+var _listPos, _curMemberList;_listPos=ds_list_find_index(global.clanNames,argument1);_curMemberList=ds_list_find_value(global.clanMemberLists,_listPos);return(ds_list_find_index(_curMemberList,string_lower(argument0))!=-1);

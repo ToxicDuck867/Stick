@@ -1,0 +1,1 @@
+return((argument0*global.scramble1)+global.scramble2);

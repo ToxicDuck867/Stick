@@ -1,0 +1,1 @@
+clearbuffer();writebyte(2);writestring(argument1);bufferencrypt(global.encryptKey+string(game_id));sendmessage(argument0);

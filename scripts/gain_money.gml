@@ -1,0 +1,1 @@
+BreakEngine.breakMoney=breakVar(global.money+argument0);global.money+=argument0;

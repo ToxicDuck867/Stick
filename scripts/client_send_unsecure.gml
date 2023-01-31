@@ -1,0 +1,1 @@
+clearbuffer();writebyte(16);writetcpnum();writeushort(BreakEngine.error);sendmessage(global.gamesock);

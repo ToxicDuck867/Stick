@@ -1,0 +1,1 @@
+clearbuffer();writebyte(12);writetcpnum();sendmessage(global.gamesock);

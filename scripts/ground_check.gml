@@ -1,0 +1,1 @@
+if (spot_free(x,y+1)){  if ((!upblock_position(x,y+1)) || (vspd<0))  {    return (false);  }}return (true);

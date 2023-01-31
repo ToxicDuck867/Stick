@@ -1,0 +1,1 @@
+/*Sends a state update of information on the objectto the server*/clearbuffer();writebyte(10);writetcpnum();writebyte(spriteSet);writeushort(global.myhat);writebyte(global.class);writebyte(pvp);sendmessage(global.gamesock);

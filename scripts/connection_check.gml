@@ -1,0 +1,1 @@
+ds_list_add(AccountServer.ipLog,argument0);AccountServer.ipCount=0;for (i=0; i<ds_list_size(AccountServer.ipLog); i+=1){  if (argument0==ds_list_find_value(AccountServer.ipLog,i))  {    AccountServer.ipCount+=1;  }}if (AccountServer.ipCount>5){  return(false);}return(true);

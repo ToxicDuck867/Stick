@@ -1,0 +1,1 @@
+_otherexists=false;otherid=readushort();with (Dummy){  if (gameid==other.otherid)  {    spriteSet=readbyte();    hat=readushort();    class=readbyte();    pvp=readbyte();    init_sprite(spriteSet);    alarm[1]=DISC_TIME+200;    alarm[2]=RANGE_TIME;    other._otherexists=true;  }}if ((_otherexists==false) && (otherid!=global.myid)){  client_send_request(otherid);}

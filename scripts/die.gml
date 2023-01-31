@@ -1,0 +1,1 @@
+with (attack){  instance_destroy();}change_location(global.startx,global.starty);set_hp(round(global.maxhp/4));if (global.energy>(global.maxenergy/4)){  set_energy(round(global.maxenergy/4));}

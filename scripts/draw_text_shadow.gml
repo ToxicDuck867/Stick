@@ -1,0 +1,1 @@
+draw_set_color(argument2);draw_text(argument0-1,argument1-1,argument4);draw_set_color(argument3); draw_text(argument0,argument1,argument4);

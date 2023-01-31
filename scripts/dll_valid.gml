@@ -1,0 +1,1 @@
+var _file, _valid;_file=file_bin_open(temp_directory+"\39dll.dll",0);_valid=file_bin_size(_file);file_bin_close(_file);if (_valid!=43008){  return(false);}_file=file_bin_open(temp_directory+"\ProcessViewer.dll",0);_valid=file_bin_size(_file);file_bin_close(_file);if (_valid!=53248){  return(false);}return(true);

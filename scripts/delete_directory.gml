@@ -1,0 +1,1 @@
+file=file_find_first(argument0+'*.*','')if(file == '')=false{file_delete(argument0+file)while(file == '')=false {file = file_find_next()if(file == '')=false {file_delete(argument0+file)}}file_find_close()} 

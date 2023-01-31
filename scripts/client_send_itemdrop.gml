@@ -1,0 +1,1 @@
+exit;clearbuffer();writebyte(17);writetcpnum();writeudecint(argument0);writedecshort(argument1);writeushort(argument2);writeint(varcheck(argument2));sendmessage(global.gamesock);

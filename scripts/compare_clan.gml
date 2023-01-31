@@ -1,0 +1,1 @@
+if ((argument0=="") && (argument1=="")) {  return(false);}else {  return(argument0==argument1);}

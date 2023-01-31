@@ -1,0 +1,1 @@
+/*Sends a small update of information on the objectto the server*/clearbuffer();writebyte(5);writetcpnum();writeushort(argument0);writeushort(argument1);writebyte(argument2);writeushort(argument3);writedecshort(argument4);writedecshort(argument5);sendmessage(global.gamesock);Player.pvpToggle=false;Player.alarm[8]=Player.pvpDelay;

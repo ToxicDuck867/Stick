@@ -1,0 +1,1 @@
+var _key_tmp, _key;_key_tmp = argument0 + "_key_" + string(argument1);_key_tmp = md5string(_key_tmp);_key = string_copy(_key_tmp,0,5)+ "-";_key += string_copy(_key_tmp,5,5) + "-";_key += string_copy(_key_tmp,10,5) + "-";_key += string_copy(_key_tmp,15,5) + "-";_key += string_copy(_key_tmp,20,5);return string_upper(_key);

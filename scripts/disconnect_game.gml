@@ -1,0 +1,1 @@
+/*Disconnects from the Game Socket if connected, and UDP Socket ifargument0=true*/closesocket(global.gamesock);if (argument0==true){  closesocket(global.udpsock);}

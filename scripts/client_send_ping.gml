@@ -1,0 +1,1 @@
+clearbuffer();global.pingTime=current_time;writebyte(11);writeushort(global.myid);sendmessage(global.udpsock,IP_ADDRESS,SERVER_UDP1);

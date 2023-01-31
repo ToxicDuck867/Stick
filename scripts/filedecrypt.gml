@@ -1,0 +1,1 @@
+return fileencrypt(argument0,argument1);

@@ -1,0 +1,1 @@
+/*Sends a small update of information on the objectto the server*/clearbuffer();writebyte(1);if (argument){  writetcpnum();}else{  writeushort(global.myid);}writeudecint(x);writedecshort(y);writedecshort(dir);writedecshort(vspd);if (knockDir!=0){  writedecshort(knockDir);}if (argument0){  sendmessage(global.gamesock);}else{  sendmessage(global.udpsock,IP_ADDRESS,SERVER_UDP1);}

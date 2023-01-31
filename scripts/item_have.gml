@@ -1,0 +1,1 @@
+for (i=1; i<=ds_list_size(global.itemList); i+=1){  if (ds_list_find_value(global.itemList,i-1)==argument0)  {    return(true);  }}return(false);

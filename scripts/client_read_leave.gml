@@ -1,0 +1,1 @@
+otherid=readushort();with (Dummy){  if (gameid==other.otherid)  {    instance_destroy();  }}

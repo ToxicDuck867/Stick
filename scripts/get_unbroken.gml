@@ -1,0 +1,1 @@
+return(argument0);/*if (global.secured){  return((((argument0-.007)*3)+8)/19);}else{  return(argument0);}*/
